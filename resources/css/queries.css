@@ -1,0 +1,146 @@
+/* Big tablets/desktop to 1024px and above (width smaller than the 1140px row) */
+@media only screen and (min-width: 1124px) {
+    .tours__content {
+    margin: 0 2%;
+    }
+
+    }
+
+/* Small tablets to big tablets: from 768 to 1023px */
+@media only screen and (max-width: 1023px) { 
+    .tours__content {
+    margin: 0 2%;
+    }
+    }
+
+/* Small phones to small tablets: from 481 to 767px */
+@media only screen and (max-width: 767px) { 
+    .header__logo { max-height: 150px; }
+    .header__nav li {
+    display: block;
+    margin-bottom: 15px;
+    }
+    
+    .aboutus__box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    }
+    
+    .tours__box {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .tours__content {
+    margin: 2% 2%;
+    width: 80%;
+    
+    }
+    
+    .booking p {
+    width: 90%;
+    }
+    
+    .form div {
+        width: 90%;
+    }
+    
+    .btn-bottom {
+        bottom: 0;
+        left: 85%;
+    }
+}
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) { 
+    .header__logo { max-height: 120px; }
+    .header__nav li {
+    display: block;
+    margin-bottom: 15px;
+    }
+    
+    
+    body { font-size: 17px; }
+    
+    .aboutus__box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    }
+    
+    .tours__box {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    
+    .tours__content {
+    margin: 2% 2%;
+    }
+    
+      .booking p {
+    width: 90%;
+    }
+
+    form div {
+        width: 90%; 
+        
+        display: -webkit-box; 
+        
+        display: -ms-flexbox; 
+        
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    
+    input[type=text],
+    input[type=email],
+    input[type=date],
+    input[type=number],
+    textarea {
+        width: 100%;
+        margin: auto;
+        font-weight: 100;
+    }
+    
+    form label {
+    }
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 280px) {
+    
+    body { font-size: 15px; }
+    
+    h2:after { margin: 10px auto; }
+    
+    .header__hero {
+        font-size: 80%;
+    }
+    
+    .header__logo {
+        height: 100px;
+    }
+    
+    
+    
+    .aboutus__details {
+        padding: 0;
+    }
+    
+    .btn-bottom {
+        bottom: 0;
+        left: 75%;
+    }
+}
